@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Bold.otf') format('truetype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Extralight.otf') format('truetype');
+  font-weight: 200; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Light.otf') format('truetype');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Medium.otf') format('truetype');
+  font-weight: 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Regular.otf') format('truetype');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/font/clash_grotesk/ClashDisplay-Semibold.otf') format('truetype');
+  font-weight: 600; 
+  font-style: normal;
+}
+
+.clash-grotesk {
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
+@layer utilities: {
+  .heading_1 {
+    @apply font-bold text-[96px]
+  }
+
+  .heading_2 {
+    @apply font-bold text-[56px]
+  }
+
+  .heading_3 {
+    @apply font-bold text-[48px]
+  }
+
+  .heading_4 {
+    @apply font-bold text-[32px]
+  }
+
+  .heading_5 {
+    @apply text-[32px]
+  }
+
+  .heading_6 {
+    @apply text-[24px]
+  }
+
+  .paragraph_large {
+    @apply text-[18px]
+  }
+
+  .paragraph_base {
+    @apply font-medium text-[16px]
+  }
+
+  .paragraph_large {
+    @apply font-thin text-[14px]
+  }
+}
