@@ -48,40 +48,40 @@
   font-family: 'Clash Grotesk', sans-serif;
 }
 
-@layer utilities: {
+@layer utilities {
   .heading_1 {
-    @apply font-bold text-[96px]
+    @apply font-bold text-[96px];
   }
 
   .heading_2 {
-    @apply font-bold text-[56px]
+    @apply font-bold text-[56px];
   }
 
   .heading_3 {
-    @apply font-bold text-[48px]
+    @apply font-bold text-[48px];
   }
 
   .heading_4 {
-    @apply font-bold text-[32px]
+    @apply font-bold text-[32px];
   }
 
   .heading_5 {
-    @apply text-[32px]
+    @apply text-[32px];
   }
 
   .heading_6 {
-    @apply text-[24px]
+    @apply text-[24px];
   }
 
   .paragraph_large {
-    @apply text-[18px]
+    @apply text-[18px];
   }
 
   .paragraph_base {
-    @apply font-medium text-[16px]
+    @apply font-medium text-[16px];
   }
 
-  .paragraph_large {
-    @apply font-thin text-[14px]
+  .paragraph_small {
+    @apply font-thin text-[14px];
   }
 }

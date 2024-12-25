@@ -2,20 +2,24 @@ import { Art, Boston, Branding, ConvertKit, Croma, Design, Development, DoraDesi
 
 type Achievement = {
     stat: string,
+    measure: string,
     title: string
 }
 
 export const achievement: Achievement[] = [
     {
-        stat: "8.2k",
+        stat: "8.2",
+        measure: "k",
         title: "Trusted Users"
     },
     {
-        stat: "120+",
+        stat: "120",
+        measure: "+",
         title: "Project Completed"
     },
     {
-        stat: "97%",
+        stat: "97",
+        measure: "%",
         title: "Clients Satisfaction"
     },
 ]

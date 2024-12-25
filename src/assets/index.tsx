@@ -1,12 +1,12 @@
-import Art from "./images/art.png"
+import Art from "./images/art.svg"
 import Boston from "./images/boston.png"
-import Branding from "./images/branding.png"
+import Branding from "./images/branding.svg"
 import ConvertKitBlack from "./images/convertkit-black.png"
 import ConvertKit from "./images/convertkit.png"
 import Creative from "./images/creative.png"
 import Croma from "./images/croma.png"
-import Design from "./images/design.png"
-import Development from "./images/development.png"
+import Design from "./images/design.svg"
+import Development from "./images/development.svg"
 import DirectionArrow from "./images/direction-arrow.svg"
 import DoraDesign from "./images/doradesign.png"
 import Facebook from "./images/facebook.svg"
@@ -21,6 +21,8 @@ import Sisila from "./images/Sisila.png"
 import Videoreel from "./images/video_reel.png"
 import Wavefun from "./images/wavefun.png"
 import YouTube from "./images/youtube.svg"
+import AboutImage from "./images/about-image.png"
+import Star from "./images/star.svg"
 
 export {
     Art,
@@ -45,5 +47,7 @@ export {
     Sisila,
     Videoreel,
     Wavefun,
-    YouTube
+    YouTube,
+    AboutImage,
+    Star
 }

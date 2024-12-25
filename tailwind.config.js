@@ -8,17 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'custom-dark': '#121212',
+      },
       fontFamily: {
-        gilroy: ['Gilroy', 'sans-serif'],
-        dmSans: ['DM Sans', 'sans-serif'],
+        clash_grotesk: ['Clash Grotesk', 'sans-serif'],
       },
       colors: {
         primary: "#FAD007",
         secondary: "#FAEAEA",
-        black_1: "07070A",
-        black_2: "39393B",
-        white: "FFFFFF",
-        off_white: "F6F6F6",
       }
     },
   },
