@@ -1,7 +1,7 @@
 import Art from "./images/art.svg"
 import Boston from "./images/boston.png"
 import Branding from "./images/branding.svg"
-import ConvertKitBlack from "./images/convertkit-black.png"
+import ConvertKitBlack from "./images/convertkit-black.svg"
 import ConvertKit from "./images/convertkit.png"
 import Creative from "./images/creative.png"
 import Croma from "./images/croma.png"
@@ -23,6 +23,14 @@ import Wavefun from "./images/wavefun.png"
 import YouTube from "./images/youtube.svg"
 import AboutImage from "./images/about-image.png"
 import Star from "./images/star.svg"
+import ArtBlack from "./images/art-black.png"
+import BrandingBlack from "./images/branding-black.png"
+import DesignBlack from "./images/design-black.png"
+import DevelopmentBlack from "./images/development-black.png"
+import Quote from "./images/quote.svg"
+import Logo2 from "./images/logo2.png"
+import Instagram from "./images/instagram.svg"
+import Twitter from "./images/twitter-x.svg"
 
 export {
     Art,
@@ -49,5 +57,13 @@ export {
     Wavefun,
     YouTube,
     AboutImage,
-    Star
+    Star,
+    ArtBlack,
+    BrandingBlack,
+    DesignBlack,
+    DevelopmentBlack,
+    Quote,
+    Logo2,
+    Instagram,
+    Twitter
 }

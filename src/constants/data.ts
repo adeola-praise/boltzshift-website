@@ -1,4 +1,4 @@
-import { Art, Boston, Branding, ConvertKit, Croma, Design, Development, DoraDesign, FortKnox, PeopleImg1, PeopleImg2, Portfolio, Proline, Sisila, Wavefun } from "../assets"
+import { Art, ArtBlack, Boston, Branding, BrandingBlack, ConvertKit, Croma, Design, DesignBlack, Development, DevelopmentBlack, DoraDesign, FortKnox, PeopleImg1, PeopleImg2, Portfolio, Proline, Sisila, Wavefun } from "../assets"
 
 type Achievement = {
     stat: string,
@@ -55,6 +55,7 @@ export const work: Work[] = [
 
 type Service = {
     icon: string,
+    iconBlack: string;
     title: string,
     description: string
 }
@@ -62,21 +63,25 @@ type Service = {
 export const service: Service[] = [
     {
         icon: Branding,
+        iconBlack: BrandingBlack,
         title: "Branding",
         description: "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites."
     },
     {
         icon: Design,
+        iconBlack: DesignBlack,
         title: "Design",
         description: "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites."
     },
     {
         icon: Development,
+        iconBlack: DevelopmentBlack,
         title: "Development",
         description: "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites."
     },
     {
         icon: Art,
+        iconBlack: ArtBlack,
         title: "Direction",
         description: "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites."
     },
@@ -137,13 +142,21 @@ export const process: Process[] = [
 type PricingPlan = {
     plan: string,
     price: string,
+    bgColor: string,
+    buttonBg: string,
+    buttonText: string,
+    buttonHover: string,
     features: string[]
 }
 
 export const pricingPlan: PricingPlan[] = [
     {
-        plan: "Basic",
+        plan: "BASIC",
         price: "$49",
+        bgColor: "bg-white",
+        buttonBg: "bg-primary",
+        buttonText: "text-black",
+        buttonHover: "hover:bg-yellow-500",
         features: [
             "Weekly updates",
             "Secure and Reliable",
@@ -154,8 +167,12 @@ export const pricingPlan: PricingPlan[] = [
         ]
     },
     {
-        plan: "Pro",
+        plan: "PRO",
         price: "$249",
+        bgColor: "bg-primary",
+        buttonBg: "bg-black",
+        buttonText: "text-white",
+        buttonHover: "hover:bg-[#141414]",
         features: [
             "Daily updates",
             "Secure and Reliable",
@@ -166,8 +183,12 @@ export const pricingPlan: PricingPlan[] = [
         ]
     },
     {
-        plan: "Enterprise",
+        plan: "ENTERPRISE",
         price: "$449",
+        bgColor: "bg-white",
+        buttonBg: "bg-primary",
+        buttonText: "text-black",
+        buttonHover: "hover:bg-yellow-500",
         features: [
             "For Enterprises",
             "Secure and Reliable",
