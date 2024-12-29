@@ -113,6 +113,26 @@ export const brand: Brand[] = [
         logo: ConvertKit,
         alt: "Convertkit",
     },
+    {
+        logo: Wavefun,
+        alt: "Wavefun",
+    },
+    {
+        logo: Proline,
+        alt: "Proline",
+    },
+    {
+        logo: Sisila,
+        alt: "Sisila",
+    },
+    {
+        logo: DoraDesign,
+        alt: "Doradesign",
+    },
+    {
+        logo: ConvertKit,
+        alt: "Convertkit",
+    },
 ]
 
 type Process = {
@@ -219,5 +239,45 @@ export const review: Review[] = [
         name: "Ryan Dyson",
         image: PeopleImg2,
         role: "CTO of Company"
+    },
+]
+
+type BrandProcess = {
+    index: string,
+    text: string,
+}
+
+export const brandProcess: BrandProcess[] = [
+    {
+        index: "01",
+        text: "Plan"
+    },
+    {
+        index: "02",
+        text: "Development"
+    },
+    {
+        index: "03",
+        text: "UX"
+    },
+    {
+        index: "04",
+        text: "Branding"
+    },
+    {
+        index: "05",
+        text: "Strategy"
+    },
+    {
+        index: "06",
+        text: "Consulting"
+    },
+    {
+        index: "07",
+        text: "Copywriting"
+    },
+    {
+        index: "08",
+        text: "SEO"
     },
 ]

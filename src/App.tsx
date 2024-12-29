@@ -1,6 +1,7 @@
 import Footer from './layout/footer'
 import Navbar from './layout/navbar'
 import About from './sections/about-us'
+import Branding from './sections/branding'
 import ContactUs from './sections/contact-us'
 import CTA from './sections/CTA'
 import Hero from './sections/hero'
@@ -23,6 +24,7 @@ function App() {
       <ContactUs/>
       <Testimonials />
       <CTA />
+      <Branding />
       <Footer />
     </>
   )
